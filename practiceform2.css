@@ -1,0 +1,52 @@
+
+*{
+padding: 4px;
+margin: 8px;
+
+}
+.head{
+    color: rgb(63, 63, 181);
+    display: flex;
+}
+header{
+    width: 100%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    background-size: 90px;
+    font-size: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"],input[type="date"],select{
+border: 2px solid black;
+border-radius: 6px;
+width: max-content;
+width: 350px;
+height: 35px;
+}
+input[type="submit"]{
+    background-color: rgb(29, 115, 29);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 170px;
+    height: 30px;
+}
+
+p{
+    font-size: medium;
+    font-weight: bold;
+}
+.Reasons{
+    background-color: rgba(137, 243, 243, 0.615);
+    border: none;
+    border-radius: 8px;
+    table-layout: auto;
+    overflow-x: hidden;
+}
+.Minimum{
+    font-size: 13px;
+}
+
